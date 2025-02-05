@@ -1,13 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Tektur:wght@400..900&display=swap');
+
+
+
 *{
     padding: 0px;
     margin: 0px;
     text-decoration: none;
     list-style: none;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: "Tektur", serif;
+
+
 }
 
 
@@ -32,14 +39,17 @@ background-image: linear-gradient(-80deg, #0f171b 0%, #070707 100%);
 nav ul{
     margin-top: -15px;
     display: flex;
-    transition:all 1s ease;
 
 }
 nav li{
+    cursor: pointer;
     margin-left:58px;
+    transition: 0.3s ease-in-out;
+
 }
 nav li:hover{
    color: brown;
+   transform: scale(1.1);
 }
 
 .container-1{
@@ -56,9 +66,21 @@ margin-top: 15px;
 }
 .container-1 h1{
     font-size: 47px;
-    position: absolute;
-    bottom: 12px;
-    color: #e4e8ec;
+cursor: pointer;
+    color: #155c3c;
+    font-family: "Montserrat Underline", serif;
+
+}
+.container-1 span{
+    color: #69684c;
+}
+.container-1 p{
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 28px;
+  
+    width: 678px;
+    text-align: center;
     font-family: "Montserrat Underline", serif;
 
 }
