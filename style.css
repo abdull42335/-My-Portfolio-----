@@ -116,10 +116,72 @@ nav li:hover {
 .container-2 p{
     line-height: 30px;
     margin-top: 8px;
+    color: #817c76;
 }
 .container-2 button{
     padding: 12px 12px;
     border-radius: 6px;
     background-color: #228d464f;
     margin-top: 25px;
+}
+
+
+
+
+/* SERVICE */
+.container-3{
+    margin-top: 265px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-3 h1,span{
+    text-align: center;
+    color: #155c3c;
+
+}
+
+.Flexbox{
+    margin-top: 107px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 141px;
+
+}
+.box1{
+    border: 2px solid white;
+    height: 413px;
+    width: 362px;
+}
+
+
+
+
+
+
+
+/* PROJECTS  */
+.container-4{
+    margin-top: 324px;
+    display: flex;
+    flex-direction: column;
+
+}
+.container-4 h1{
+    text-align: center;
+}
+.flexbox2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 99px;
+    margin-left: 183px;
+    margin-top: 102px;
+
+}
+.box2{
+    border:  2px solid white;
+    height: 300px;
+    width: 300px;
 }
