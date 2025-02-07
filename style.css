@@ -150,9 +150,34 @@ nav li:hover {
 
 }
 .box1{
-    border: 2px solid white;
+  padding: 36px;
+    /* border: 2px solid white; */
+    border-radius: 15px;
+    background-color: #1e221bab;
     height: 413px;
     width: 362px;
+}
+.box1 img{
+  margin-top: 52px;
+  margin-left: 156px;
+  height: 50px;
+  width: 50px;
+}
+.box1 h2,p{
+  margin-top: 32px;
+  text-align: center;
+  
+}
+.box1 svg{
+  margin-top: 37px;
+  margin-left: 165px;
+  height: 40px;
+  width: 40px;
+  transition: all 0.3s ease;
+}
+.box1 svg:hover{
+
+  transform: scale(0.9);
 }
 
 
@@ -181,7 +206,16 @@ nav li:hover {
 
 }
 .box2{
-    border:  2px solid white;
+    /* border:  2px solid white; */
     height: 300px;
     width: 300px;
+}
+.box2 img{
+  border-radius: 6px;
+  height: 300px;
+  width: 300px;
+  transition: all 0.3s ease;
+}
+.box2 img:hover{
+  transform: scale(1.1);
 }
