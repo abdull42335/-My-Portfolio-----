@@ -72,150 +72,144 @@ nav li:hover {
   color: #69684c;
 }
 .container-1 p {
-    cursor: pointer;
-    font-weight: 600;
-    font-size: 26px;
-    width: 678px;
-    text-align: center;
-    font-family: "Montserrat Underline", serif;
-    margin-top: -13px;
-    transform: skew(231deg, -22deg);
-    opacity: 0.2;
-    margin-right: -171px;
-
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 26px;
+  width: 678px;
+  text-align: center;
+  font-family: "Montserrat Underline", serif;
+  margin-top: -13px;
+  transform: skew(231deg, -22deg);
+  opacity: 0.2;
+  margin-right: -171px;
 }
 
+/* ABOUT */
 
-.container-2{
-    margin-top: 332px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 347px;
-    margin-right: 107px;
+.container-2 {
+  margin-top: 332px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 347px;
+  margin-right: 107px;
 }
 
-.container-2 img{
-    height: 350px;
-    width: 300px;
-    border-radius: 12px;
-    margin-left: 165px;
-    transition: all 1s ease;
+.container-2 img {
+  height: 350px;
+  width: 300px;
+  border-radius: 12px;
+  margin-left: 165px;
+  transition: all 1s ease;
 }
-.container-2 img:hover{
-    box-shadow: 0 0 12px  #04e47f;
-    transform: translate(10px);
-    
+.container-2 img:hover {
+  box-shadow: 0 0 12px #04e47f;
+  transform: translate(10px);
 }
-.container-2 h1{
-    text-decoration: underline;
-    color: #155c3c;
-
+.container-2 h1 {
+  text-decoration: underline;
+  color: #155c3c;
 }
-.container-2 p{
-    line-height: 30px;
-    margin-top: 8px;
-    color: #817c76;
+.ABOUT p {
+  line-height: 30px;
+  margin-top: 8px;
+  color: #817c76;
+  text-align: justify;
 }
-.container-2 button{
-    padding: 12px 12px;
-    border-radius: 6px;
-    background-color: #228d464f;
-    margin-top: 25px;
+.container-2 button {
+  padding: 12px 12px;
+  border-radius: 6px;
+  background-color: #228d464f;
+  margin-top: 25px;
 }
-
-
-
 
 /* SERVICE */
-.container-3{
-    margin-top: 265px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.container-3 {
+  margin-top: 265px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.container-3 h1,span{
-    text-align: center;
-    color: #155c3c;
-
+.container-3 h1,
+span {
+  text-align: center;
+  color: #155c3c;
 }
 
-.Flexbox{
-    margin-top: 107px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 141px;
-
+.Flexbox {
+  margin-top: 107px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 141px;
 }
-.box1{
+.box1 {
   padding: 36px;
-    /* border: 2px solid white; */
-    border-radius: 15px;
-    background-color: #1e221bab;
-    height: 413px;
-    width: 362px;
+  /* border: 2px solid white; */
+  border-radius: 15px;
+  background-color: #1e221bab;
+  height: 413px;
+  width: 362px;
+  transition: all 0.3s ease;
 }
-.box1 img{
+.box1:hover {
+  transform: scale(0.9);
+}
+.box1 img {
   margin-top: 52px;
   margin-left: 156px;
   height: 50px;
   width: 50px;
 }
-.box1 h2,p{
-  margin-top: 32px;
+.box1 h2,
+p {
+  margin-top: 20px;
   text-align: center;
-  
+  line-height: 25px;
 }
-.box1 svg{
+.box1 svg {
   margin-top: 37px;
   margin-left: 165px;
   height: 40px;
   width: 40px;
   transition: all 0.3s ease;
 }
-.box1 svg:hover{
-
+.box1 svg:hover {
   transform: scale(0.9);
 }
 
-
-
-
-
-
-
 /* PROJECTS  */
-.container-4{
-    margin-top: 324px;
-    display: flex;
-    flex-direction: column;
-
+.container-4 {
+  margin-top: 324px;
+  display: flex;
+  flex-direction: column;
 }
-.container-4 h1{
-    text-align: center;
+.container-4 h1 {
+  text-align: center;
 }
-.flexbox2{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 99px;
-    margin-left: 183px;
-    margin-top: 102px;
-
+.flexbox2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 99px;
+  margin-left: 183px;
+  margin-top: 102px;
 }
-.box2{
-    /* border:  2px solid white; */
-    height: 300px;
-    width: 300px;
+.box2 {
+  /* border:  2px solid white; */
+  height: 300px;
+  width: 300px;
 }
-.box2 img{
+.box2 img {
   border-radius: 6px;
   height: 300px;
   width: 300px;
   transition: all 0.3s ease;
+  opacity: 0.4;
 }
-.box2 img:hover{
+.box2 img:hover {
+  opacity: 0.5;
   transform: scale(1.1);
+  box-shadow: 0 0 12px rgb(141, 141, 154);
 }
