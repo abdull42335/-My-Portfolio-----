@@ -219,7 +219,7 @@ p {
 .footer{
   margin-left: 60px;
   margin-right: 60px;
-  margin-top: 350px;
+  margin-top: 410px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -228,13 +228,40 @@ p {
 }
 .left h1{
  width: 700px;
- line-height: 45px;
+ line-height: 48px;
 }
+.left a{
+  line-height: 83px;
+  font-size: 34px;
+  color:  #a9b0af;
+  ;
+}
+.left a:hover{
+  color: #2168b0;
+}
+
 
 
 .right img{
  margin-left: 41px;
 height: 30px;
 width: 30px;
+transition: all 0.3s ease;
 
+}
+.right img:hover{
+  transform: scale(0.9);
+}
+
+
+.last{
+  margin-top: 175px;
+}
+.last a{
+  color: #a9b0af;
+  margin-left: 602px;
+
+}
+.last a:hover{
+  color: #376da2;
 }
