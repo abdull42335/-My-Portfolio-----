@@ -64,7 +64,7 @@ nav li:hover {
   color: #155c3c;
   font-family: "Creepster", serif;
   margin-top: -327px;
-  opacity: 0.3;
+  opacity: 0.6;
   transform: skew(-198deg, -23deg);
 }
 
@@ -80,7 +80,7 @@ nav li:hover {
   font-family: "Montserrat Underline", serif;
   margin-top: -13px;
   transform: skew(231deg, -22deg);
-  opacity: 0.2;
+  opacity: 0.4;
   margin-right: -171px;
 }
 
@@ -119,9 +119,13 @@ nav li:hover {
 }
 .container-2 button {
   padding: 12px 12px;
-  border-radius: 6px;
+  border-radius: 8px;
   background-color: #228d464f;
   margin-top: 25px;
+  transition: all 0.3s ease;
+}
+.container-2 button:hover{
+  background-color: #155c3c;
 }
 
 /* SERVICE */
@@ -217,8 +221,8 @@ p {
 
 
 .footer{
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
   margin-top: 410px;
   display: flex;
   flex-direction: row;
@@ -227,6 +231,7 @@ p {
   
 }
 .left h1{
+  color: #a9b0af;
  width: 700px;
  line-height: 48px;
 }
